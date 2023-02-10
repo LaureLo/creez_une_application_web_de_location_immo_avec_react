@@ -23,12 +23,14 @@
   position: absolute;
   left: 10px;
   top: 40%;
+  cursor: pointer;
 }
 
 .fleche_droite {
   position: absolute;
   right: 10px;
   top: 40%;
+  cursor: pointer;
 }
 
 .fleche_none {
