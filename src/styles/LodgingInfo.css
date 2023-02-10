@@ -1,0 +1,134 @@
+.lodging {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lodging_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.lodging_title {
+  color: #ff6060;
+  font-size: 36px;
+  line-height: 146.6%;
+  font-family: "Montserrat";
+}
+
+.lodging_location {
+  color: #ff6060;
+  font-size: 18px;
+  line-height: 146.6%;
+  font-family: "Montserrat";
+}
+
+.lodging_tags {
+  display: flex;
+  padding: 0px;
+}
+
+.lodging_tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-right: 15px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  background-color: #ff6060;
+  border-radius: 10px;
+  width: 115px;
+  height: 25px;
+}
+
+.lodging_host {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.lodging_host_name {
+  color: #ff6060;
+  font-size: 18px;
+  line-height: 142.6%;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  font-family: "Montserrat";
+  width: 93px;
+  height: 52px;
+}
+
+.lodging_host_img {
+  padding-left: 10px;
+}
+
+.lodging_host_img img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.lodging_rating {
+  margin-top: 10px;
+}
+
+.lodging_star {
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+@media (max-width: 769px) {
+  .lodging {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .lodging_info_right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+  }
+
+  .lodging_title {
+    font-size: 18px;
+  }
+
+  .lodging_location {
+    font-size: 14px;
+  }
+  .lodging_tags {
+    flex-wrap: wrap;
+  }
+  .lodging_tag {
+    font-size: 10px;
+    border-radius: 5px;
+    width: 84px;
+    height: 18px;
+    margin-top: 5px;
+  }
+  .lodging_host_name {
+    font-size: 12px;
+    width: 63px;
+    height: 33px;
+  }
+
+  .lodging_host_img img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .lodging_star {
+    width: 15px;
+    height: 15px;
+    padding-left: 0;
+    padding-right: 4px;
+  }
+}

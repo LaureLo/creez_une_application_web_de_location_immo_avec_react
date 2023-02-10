@@ -1,0 +1,43 @@
+.lodging_collapse {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-left: 1%;
+  margin-right: 2%;
+}
+
+.lodging_collapse_element {
+  width: 100%;
+  padding: 0;
+}
+
+.lodging_collapse_element p {
+  padding: 30px;
+  margin: 0;
+  font-size: 18px;
+}
+
+.lodging_collapse_element span {
+  font-size: 18px;
+}
+
+.lodging_equipement {
+  list-style: none;
+}
+
+@media (max-width: 769px) {
+  .lodging_collapse {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .lodging_collapse_element p {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .lodging_collapse_element span {
+    font-size: 13px;
+  }
+}

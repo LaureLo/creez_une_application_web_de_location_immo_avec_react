@@ -1,0 +1,43 @@
+.banner {
+  position: relative;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.banner_image {
+  width: 100%;
+  object-fit: cover;
+  height: 223px;
+  border-radius: 25px;
+  filter: brightness(75%);
+}
+
+.banner_text {
+  position: absolute;
+  font-size: 48px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  left: 10%;
+  margin: 0;
+  right: 10%;
+  top: 30%;
+  bottom: 49.04%;
+  font-family: "Montserrat";
+}
+
+@media all and (max-width: 812px) {
+  .banner {
+    margin-bottom: 22px;
+  }
+  .banner_image {
+    height: 111px;
+    border-radius: 10px;
+  }
+  .banner_text {
+    font-size: 24px;
+    text-align: left;
+  }
+}
