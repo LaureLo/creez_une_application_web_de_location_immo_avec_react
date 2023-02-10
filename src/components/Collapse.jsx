@@ -1,7 +1,7 @@
 import { useState } from "react";
-import vector_close from "../../assets/vector_close.png";
-import vector_open from "../../assets/vector_open.png";
-import "../../styles/Collapse.css";
+import vector_close from "../assets/vector_close.png";
+import vector_open from "../assets/vector_open.png";
+import "../styles/Collapse.css";
 
 function Collapse({ title, texte }) {
   const [isOpen, setIsOpen] = useState(false);

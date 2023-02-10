@@ -1,7 +1,7 @@
 import { useState } from "react";
-import fleche_gauche from "../../assets/fleche_gauche.png";
-import fleche_droite from "../../assets/fleche_droite.png";
-import "../../styles/Carrousel.css";
+import fleche_gauche from "../assets/fleche_gauche.png";
+import fleche_droite from "../assets/fleche_droite.png";
+import "../styles/Carrousel.css";
 
 function Carroussel({ slidesImg }) {
   const [actualIndex, setActualIndex] = useState(0);

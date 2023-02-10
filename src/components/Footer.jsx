@@ -1,4 +1,4 @@
-import logo from "../../assets/logo_foot.png";
+import logo from "../assets/logo_foot.png";
 
 function Header() {
   return (

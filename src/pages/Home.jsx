@@ -1,10 +1,10 @@
-import Banner from "../../components/Banner";
-import Card from "../../components/Card";
+import Banner from "../components/Banner";
+import Card from "../components/Card";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Lodgings from "../../logement.json";
-import banner from "../../assets/banner.png";
-import "../../styles/Card.css";
+import Lodgings from "../logements.json";
+import banner from "../assets/banner.png";
+import "../styles/Card.css";
 
 function Home() {
   const [lodgings] = useState(Lodgings);

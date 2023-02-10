@@ -1,6 +1,6 @@
-import "../../styles/LodgingInfo.css";
-import star_pink from "../../assets/star_pink.png";
-import star_grey from "../../assets/star_grey.png";
+import "../styles/LodgingInfo.css";
+import star_pink from "../assets/star_pink.png";
+import star_grey from "../assets/star_grey.png";
 
 function LodgingInfo({ description }) {
   const nbrRating = [1, 2, 3, 4, 5];

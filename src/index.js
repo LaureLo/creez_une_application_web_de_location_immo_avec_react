@@ -7,7 +7,7 @@ import Lodging from "./pages/Lodging";
 import Error from "./pages/Error";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import "./styles/style.css";
+import "./styles/Style.css";
 
 import reportWebVitals from "./reportWebVitals";
 

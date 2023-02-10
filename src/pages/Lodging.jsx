@@ -1,9 +1,9 @@
 import { useParams, Navigate } from "react-router-dom";
-import Carrousel from "../../components/Carrousel";
-import Collapse from "../../components/Collapse";
-import LodgingInfo from "../../components/LodgingInfo";
-import Lodgings from "../../logement.json";
-import "../../styles/Lodging.css";
+import Carrousel from "../components/Carrousel";
+import Collapse from "../components/Collapse";
+import LodgingInfo from "../components/LodgingInfo";
+import Lodgings from "../logements.json";
+import "../styles/Lodging.css";
 
 function Lodging() {
   const { fichelogement } = useParams();
