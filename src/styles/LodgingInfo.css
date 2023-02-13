@@ -39,8 +39,9 @@
   font-family: "Montserrat";
   background-color: #ff6060;
   border-radius: 10px;
-  width: 115px;
+  width: auto;
   height: 25px;
+  padding: 0 5px;
 }
 
 .lodging_host {
